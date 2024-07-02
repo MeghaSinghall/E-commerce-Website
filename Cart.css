@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #b293d3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html,
+body {
+    height: 100%;
+background-image: url(https://img.freepik.com/premium-photo/empty-white-clean-patition-floor-studio-lighting-box-object-any-product-background_39476-333.jpg?size=626&ext=jpg);}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 30px;
+    background: #979fdf;
+    background: -webkit-linear-gradient(to right, #cfa793, #e4dfd3);
+    background: linear-gradient(to right, #ccbdb5, #e9f0eb);
+    height: 400px
+}
+
+
+.product-image {
+    flex: 1 1 50%;
+    margin-right: 30px;
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-image img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-details {
+    flex: 1 1 50%;
+    padding: 20px;
+}
+
+.product-details h3 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    text-shadow: #000;
+}
+
+.product-details p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+}
+
+.product-details .price {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+.product-details .buttons {
+    display: flex;
+}
+
+.product-details .buttons button {
+    background-color: #FFf;
+    color: #2F0743;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-details .buttons button:hover {
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+    transform: scale(.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-details .buttons button:last-child {
+    color: #FDC830;
+    background-color: #333;
+}
+
+.product-details .buttons button:last-child:hover {
+    color: #FDC830;
+    background-color: #000;
+}
+
+.credit a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+
+.credit {
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

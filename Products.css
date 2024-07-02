@@ -1,0 +1,82 @@
+.section-p1 {
+    padding: 40px 80px;
+}
+
+
+
+#Product1 {
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63749.jpg?size=626&ext=jpg);
+    text-align: center;
+}
+
+#Product1 .Pro-Container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+   
+}
+
+
+
+
+#Product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 20px;
+    border: 1px solid salmon;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+    align-items: center;
+  
+}
+
+#Product1 .pro :hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.7);
+}
+
+#Product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#Product1 .pro.des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#Product1 .pro.des span {
+    color: #0b4242;
+    font-size: 12px;
+
+}
+
+#Product1 .pro.des h5 {
+    color: darkslategray;
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+#Product1 .pro.des i {
+    font-size: 12px;
+    color: rgb(239, 239, 16);
+}
+
+#Product .pro.cart {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: aqua;
+    font-weight: 500;
+    color: #0b4242;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+}

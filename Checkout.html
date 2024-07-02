@@ -1,0 +1,82 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="Checkout.css">
+    <title>Check out</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <form action="" class="login">
+                <h1>
+                    <i class="fas fa-shipping-fast login__icon"></i>
+                    Shipping Details
+                </h1>
+                <div class="login__field name">
+                    <div>
+                        <label for="f-name">First</label>
+                        <input type="text" name="f-name" class="login__input">
+                    </div>
+                    <div>
+                        <label for="l-name">Last</label>
+                        <input type="text" name="l-name" class="login__input">
+                    </div>
+                </div>
+                <div class="login__field street">
+                    <label for="name">Street</label>
+                    <input type="text" name="address" class="login__input">
+                </div>
+                <div class="login__field address-info">
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" name="city" class="login__input">
+                    </div>
+                    <div>
+                        <label for="state">State</label>
+                        <input type="text" name="state" class="login__input">
+                    </div>
+                    <div>
+                        <label for="zip">Zip</label>
+                        <input type="text" name="zip" class="login__input">
+                    </div>
+                </div>
+                <h1>
+                    <i class="far fa-credit-card login__icon"></i> Payment Information
+                </h1>
+                <div class="login__field cc-num">
+                    <label for="card-num">Credit Card No.</label>
+                    <input type="text" name="card-num" class="login__input">
+                </div>
+                <div class="login__field cc-info">
+                    <div>
+                        <label for="card-num">Exp</label>
+                        <input type="text" name="expire" class="login__input">
+                    </div>
+                    <div>
+                        <label for="card-num">CCV</label>
+                        <input type="text" name="security" class="login__input">
+                    </div>
+                </div>
+                <div class="login__field btns">
+                    <button class="login__submit">
+                        Purchase
+                        <i class="fas fa-angle-right button__icon"></i>
+                    </button>
+                    <button class="login__submit">
+                        Back to cart
+                        <i class="fas fa-angle-left button__icon"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
