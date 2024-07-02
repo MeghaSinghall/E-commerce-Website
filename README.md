@@ -1,2 +1,2 @@
 # E-commerce-Website
-This is e-commerce website 
+This is an e-commerce website of fashion
